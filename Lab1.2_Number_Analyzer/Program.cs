@@ -3,7 +3,7 @@ bool valid = false;
 Console.Write("Hello, Please enter your name: ");
 string name = Console.ReadLine();
 bool validTwo = false;
-// the first do..while loop encapsulate everything inside. it will process the first do loop inside.
+// the first do..while loop encapsulate everything inside. it will process the first do loop inside then the second then back to the top if promoted. 
 do
 {
     Console.Write("Please enter an integer between 1 and 100: ");
